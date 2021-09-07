@@ -1,12 +1,12 @@
-
-import Usuaryinfo from './usuaryinfo'
+import React from "react"
+import FormPaper from "./Components/FormPaper"
 
 function App() {
   return (
-        <div>
-          <Usuaryinfo/>
-        </div>
-  );
+    <div>
+      <FormPaper />
+    </div>
+  )
 }
 
-export default App;
+export default App
