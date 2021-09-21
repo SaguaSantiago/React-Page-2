@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 // import { Typography, Button } from "@material-ui/core/"
 import Form from "./Form"
-// import axios from "axios"
 import Paper from "@material-ui/core/Paper"
 import { makeStyles } from "@material-ui/core/styles"
 
@@ -31,7 +30,7 @@ function Usuaryinfo() {
   // const [isLoading, setIsLoading] = useState(true)
 
   // useEffect(() => {
-  //   axios
+    // axios
   //     .get(
   //       "http://api.openweathermap.org/data/2.5/onecall?lat=-33.1243872&lon=-64.4122296&units=metric&appid=91263c25ba91760faeb8f37b7d323348&lang=es&exclude=minutely,hourly,alerts"
   //     )
@@ -41,6 +40,16 @@ function Usuaryinfo() {
       
   //   setIsLoading(false)
   // }, [])
+
+  // useEffect(() => {
+
+  //   axios
+  //     .get('api.openweathermap.org/data/2.5/weather?q=Country&appid=3c7e365b9398c960e9170d9302744cd5'
+  //     )
+  //     .then((response) => console.log(response.data))
+  //     .catch((error) => console.log(error))
+
+  // })
 
   const classes = useStyle()
 
