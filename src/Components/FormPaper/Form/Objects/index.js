@@ -12,3 +12,12 @@ export const inputs = [
   }
 
 ]
+
+export const Countries = {
+
+  argentina: "AR",
+  usa: "US",
+  peru: "PE",
+  venezuela: "VE"
+
+}

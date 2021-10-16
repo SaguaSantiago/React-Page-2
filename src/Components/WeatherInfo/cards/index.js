@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent,makeStyles } from '@material-ui/core'
+import { Card, CardContent,makeStyles} from '@material-ui/core'
 
 const useStyle = makeStyles({
 
@@ -15,7 +15,8 @@ const useStyle = makeStyles({
         height : "100%",
         textAlign: "center",
         padding: "16px 0px",
-        fontSize: "1.5em"
+        fontSize: "1.5em",
+        // padding: "4px"
     },
     Description: {
         marginBottom: "5px"
@@ -28,15 +29,18 @@ const useStyle = makeStyles({
 
 export default function WeatherInfo (props) {
 
-    const specification = props
+    const content = props.content
 
     const classes = useStyle()
 
     return(
         <div>
             <Card raised="true" className={classes.Card}>
+
                 <CardContent className={classes.CardContent}>
-                a
+
+               {content}
+
                 </CardContent>
             </Card>
         </div>

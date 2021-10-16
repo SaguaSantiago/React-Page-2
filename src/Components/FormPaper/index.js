@@ -28,8 +28,10 @@ function Usuaryinfo(props) {
       <Paper elevation={6}>
         <>
           <div className={classes.ubicationForm}>
-            <Form onClick={props.apiCall} onChange={props.formData}/>
+            <Form validation={props.validation} onClick={props.apiCall} onChange={props.formData}/>
           </div>
+
+
         </>
       </Paper>
     </div>
