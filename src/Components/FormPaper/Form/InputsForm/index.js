@@ -9,7 +9,7 @@ export default function InputsForm( props ) {
   return (
     <Grid container justifyContent="center">
       {inputs.map((item) => (
-        <Grid item sm={8} >
+        <Grid item sm={8} key={item.key}>
           <TextField
             id="filled-basic"
             label={item.label}

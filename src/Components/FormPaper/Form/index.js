@@ -24,7 +24,7 @@ const Form = (props) => {
       <Typography 
       variant='h4' 
       color='primary' 
-      gutterBottom='true'>
+      gutterBottom={true}>
         Global Weather
       </Typography>
       

@@ -4,11 +4,13 @@ export const inputs = [
     clasName: "country",
     label: "Country/Pais",
     name: "country",
+    key: "1",
   },
   {
     clasName: "city",
     label: "City / Ciudad",
     name: "city",
+    key: "2"
   }
 
 ]
