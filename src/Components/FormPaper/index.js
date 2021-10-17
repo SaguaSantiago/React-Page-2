@@ -1,6 +1,6 @@
 import React from "react"
 import Form from "./Form"
-import Paper from "@material-ui/core/Paper"
+import { Paper } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
 
 const useStyle = makeStyles({
@@ -19,8 +19,6 @@ const useStyle = makeStyles({
 })
 
 function Usuaryinfo(props) {
-
-
   const classes = useStyle()
 
   return (
@@ -28,10 +26,12 @@ function Usuaryinfo(props) {
       <Paper elevation={6}>
         <>
           <div className={classes.ubicationForm}>
-            <Form validation={props.validation} onClick={props.apiCall} onChange={props.formData}/>
+            <Form
+              validation={props.validation}
+              onClick={props.apiCall}
+              onChange={props.formData}
+            />
           </div>
-
-
         </>
       </Paper>
     </div>
